@@ -23,7 +23,7 @@ header {
 .header__logo {
   height: 50px;
   width: 80px;
-  } 
+  }
 
 #hero {
   height: 220px;
@@ -34,7 +34,7 @@ header {
   }
 
 .box_project {
-	min-width:96%;
+	min-width: 96%;
   }
 
 .project img {
