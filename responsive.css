@@ -1,0 +1,53 @@
+@media screen and (max-width: 850px) {
+.conteiner  {
+  width: 850px;
+  flex-wrap: wrap;
+  text-align: center;
+  }
+
+.box_project {
+  min-width: 40%;
+  max-width: 50%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+header {
+  display: flex;
+  height: 150px;
+  }
+
+.header__logo {
+  height: 50px;
+  width: 80px;
+  } 
+
+#hero {
+  height: 220px;
+  }
+
+.project {
+  min-width: 100%;
+  }
+
+.box_project {
+	min-width:96%;
+  }
+
+.project img {
+	height: 250px;
+  object-fit: fill;
+  }
+
+.project {
+	width:100%;
+  }
+
+.description {
+	font-size: 1em;
+	text-align: center;
+  }
+}
