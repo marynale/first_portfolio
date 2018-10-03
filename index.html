@@ -20,8 +20,12 @@
     </header>
 
     <main>
-      <section class="content">
-        <div class="center" id="hero">
+      <section class="content"> <!-- co z tym section? brakuje closing tag? -->
+        <div class="image-conteiner"> <!-- Wcześniej było   <div class="center" id="hero"> -->
+          <img src="./images/bryce_canyon.jpg" alt="Bryce Canyon" class="image">
+          <div class="overlay">
+            <div class="text"><h2>Hi, my name is Maria Nalewajko and I'm a junior front-end developer. I'm mastering my HTML, CSS and JavaScript skills. I also know Wordpress and had a short experience with Python. See my projects below and wish me luck in IT!</h2></div>
+          </div>
         </div>
         <div class="center description">
           <h2>Featured work</h2>
@@ -53,12 +57,29 @@
             <img src="images/palm_california_200.jpg" sizes="100vw"
             srcset="images/palm_california_100.JPG 100w, images/palm_california_200.JPG 200w,
              images/palm_california_400.JPG 400w, images/palm_california_600.JPG 600w" alt="palm california">
-            <h3 class="project_2_header">Bokeh</h3>
+            <h3 class="project_2_header">Article Mockup</h3>
             </a>
           </div>
           </article>
-          </section>
-    <footer class="center">
+        </section>
+    <footer>
+      <section class="footer_conteiner">
+      <div class="column" id="column-left">
+        <h3>Contact me
+        <p>nalewajkomaria@gmail.com</p></h3>
+      </div>
+      <div class="column" id="column-center">
+        <h3>Follow Me</h3>
         <a href="https://www.linkedin.com/in/maria-nalewajko-aa942a32/" target="_BLANK"><img src="images/linkedin.png" alt="Linked In"></a>
+        <a href="https://github.com/marynale?tab=repositories" target="_BLANK"><img src="images/if_github-sociocon_186283.png" alt="GitHub"></a>
         <p>Copyright © 2018 <a href="http://marianalewajko.com/">marianalewajko.com</a></p>
+      </div>
+      <div class="column" id="column-right">
+        <h3><p>About Me</p>
+        <p>My Projects</p>
+        <p>Contact</p></h3>
+      </div>
+    </section>
     </footer>
+  </body>
+</html>
