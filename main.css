@@ -20,6 +20,7 @@ header {
   height: 140px;
   border-bottom: 5px solid #2476B3;
   clear: both;
+  border-radius: 8px;
   background: #ff9933;
 }
 
@@ -56,6 +57,7 @@ header {
   padding-bottom: 10px;
 	max-width: 100%;
 	line-height: 120px;
+  border-radius: 8px;
 }
 
 .overlay {
@@ -116,6 +118,7 @@ header {
   height: 200px;
   width: 100%;
   overflow: visible;
+  border-radius: 8px;
 }
 
 .project_1_header, .project_2_header, .project_3_header {
@@ -157,6 +160,16 @@ footer {
   font-size: 12px;
   text-align: center;
   background: #ff9933;
+}
+
+#column-left {
+  -moz-border-radius-topleft: 8px;
+  -webkit-border-top-left-radius: 8px;
+}
+
+#column-right {
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
 }
 
 footer img {
